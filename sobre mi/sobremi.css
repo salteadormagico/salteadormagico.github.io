@@ -1,0 +1,96 @@
+body {
+    background-image: url(../../imagenes/fondo2.png);
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#logo {
+    width: 200px;
+    margin-right: 50%;
+    margin-left: 40%;
+    opacity: 1;
+}
+main::selection {
+    background-color: gray;
+}
+#titulo {
+    border: solid;
+    color: red;
+}
+#titulo:hover {
+    color: blue;
+    font-size: 200px;
+}
+main {
+    background-color: gray;
+    margin: auto 200px;
+    opacity: 0.98;
+}
+#nav a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    color: gray;
+}
+#nav a:hover {
+    color: black;
+}
+#nav a:active {
+    color: white;
+    background-color: gray;
+}
+ul {
+    padding-left: 20%;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+li {
+    float: left;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+li:hover {
+    background-color: white;
+    color: black;
+}
+main article {
+    opacity: 1;
+    background-color: gray;
+    opacity: 2;
+}
+main article h2 {
+    opacity: 1;
+}
+#logo {
+    opacity: 1;
+}
+article a {
+    text-decoration: underline;
+    color: blue;
+}
+article a:hover {
+    text-decoration: none;
+    color: black;
+}
+footer {
+    background-color: gray;
+    text-align: right;
+    padding-left: 0;
+}
+footer p:first-child {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+footer img {
+    width: 30px;
+}
+main .logo img {
+    margin-right: 200px;
+}
