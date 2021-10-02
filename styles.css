@@ -112,7 +112,7 @@ h2 {
   font-family: "Montserrat";  
  }  
  section {  
-  min-height: 100vh;  
+  min-height: 90vh;  
   width: 100%;  
   display: flex;  
   align-items: center;  
@@ -130,7 +130,7 @@ h2 {
  .container::after {  
   content: "";  
   position: absolute;  
-  height: 90%;  
+  height: 100%;  
   width: 0%;  
   left: 0;  
   top: 0;  
